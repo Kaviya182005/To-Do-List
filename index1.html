@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TASK MANAGER</title>
+        <link rel="icon" type="image/x-icon" href="https://cdn.pixabay.com/photo/2022/05/22/17/22/to-do-7214069_640.png">
+        <link rel="stylesheet" href="style1.css">
+    </head>
+    <body>
+        <div class="todo-container">
+            <div class="header">
+                <h1>TO DO LIST</h1>
+            </div>
+            <div id="input-form">
+                <input class="input-item" type="text" id="input-box"placeholder="Add a task">
+                <button class="btn" onclick="addTask()">ADD</button>
+            </div>
+            <h2>My task list</h2>
+            <ul id="list-container"></ul>
+            <hr>
+            <div class="counter-container">
+                <div id="task-counters">
+            Completed: <span id="completed-counter">0</span>  |  Uncompleted: <span id="uncompleted-counter">0</span>
+                </div>
+            </div>
+        </div>
+        <script src="script1.js" rel="text/javascript"></script>
+    </body>
+</html>
